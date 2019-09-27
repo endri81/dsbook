@@ -1,0 +1,22 @@
+book_filename: "dsbook"
+output_dir: "docs"
+delete_merged_file: true
+language:
+  label:
+    fig: "FIGURE "
+    tab: "TABLE "
+  ui:
+    edit: "Edit"
+    chapter_name: "Chapter "
+
+rmd_files: [
+  "index.Rmd",
+  "intro.Rmd",
+"prob/intro-to-stats.Rmd",
+"prob/intro-to-prob.Rmd",
+"prob/discrete-probability.Rmd",
+"prob/continuous-probability.Rmd"
+
+]
+
+before_chapter_script: "_common.R"
