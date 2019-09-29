@@ -13,10 +13,7 @@ rmd_files: [
   "index.Rmd",
   "intro.Rmd",
 "prob/intro-to-stats.Rmd",
-"prob/intro-to-prob.Rmd",
-"prob/discrete-probability.Rmd",
-"prob/continuous-probability.Rmd"
-
+"inference/parameters-estimates.Rmd"
 ]
 
 before_chapter_script: "_common.R"
